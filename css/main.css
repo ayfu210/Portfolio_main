@@ -36,11 +36,11 @@ p {
 }
 
 nav a:hover, nav a:focus {
-color: #e85210;
+color: #ffde00;
 }
 
 a:hover, a:focus{
-  color: #e85210;
+  color: #ffde00;
 }
 
 code {

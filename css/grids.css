@@ -27,26 +27,37 @@ p {
   padding:0;
   position: relative;
 text-align: center;
-color: yellow;
-font-size: 40px;
-font-family: "ProximaNova",sans-serif;
-  letter-spacing: 10px;
+
 
 }
 
-.right {
-  position: absolute;
-  top: 100px;
-  right: 200px;
+  .project1 img{
+    transition:.3s;
+    border-radius:4px;
+  }
+
+  .project1:hover img{
+
+
+  }
+
+
+
+  .project1:hover :not(img), .right{
+    opacity:1;
+    transition:.3s;
+  }
+.project1 (img){
+
 }
 
-
-.project1:hover{
-  opacity: 0.5;
+.project1:hover img{
+  opacity: 0.8;
 
 }
-.project1:focus{
-  opacity: 1;
+
+.project1:active img{
+  opacity:1;
 }
 
 .project2:hover{
