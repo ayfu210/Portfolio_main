@@ -22,36 +22,14 @@ p {
 
 .project1{
   margin-top: 0;
-  margin-right: 30;
-  margin-left: 30;
+  margin-right: 5%;
+  margin-left: 5%;
   padding:0;
-  position: relative;
-text-align: center;
-
 
 }
 
-  .project1 img{
-    transition:.3s;
-    border-radius:4px;
-  }
 
-  .project1:hover img{
-
-
-  }
-
-
-
-  .project1:hover :not(img), .right{
-    opacity:1;
-    transition:.3s;
-  }
-.project1 (img){
-
-}
-
-.project1:hover img{
+.project1:hover{
   opacity: 0.8;
 
 }
@@ -60,21 +38,29 @@ text-align: center;
   opacity:1;
 }
 
-.project2:hover{
-  opacity: 0.5;
-
-}
-.project2:focus{
-  opacity: 1;
-}
-
-
 .project2{
   margin-top: 0;
-  margin-right: 30;
-  margin-left: 30;
+  margin-right: 5%;
+  margin-left: 5%;
   padding:0;
 }
+
+.project2:hover{
+  opacity: 0.8;
+
+}
+
+.project2:active{
+  opacity:1;
+}
+
+
+.pimages{
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
 .home_container {
   display: flex;
   flex-wrap: wrap;
